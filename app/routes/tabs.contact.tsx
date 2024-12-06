@@ -1,12 +1,12 @@
 const ContactMePage: React.FC = () => {
     return (
-        <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
-            <h1>Contact Me</h1>
-            <div>
+        <div className="text-center p-4">
+            <h1 className="text-4xl text-pink-500 font-serif font-semibold">Contact Me</h1>
+            <div className="mt-4 text-lg">
                 <p>
                     Email:{" "}
                     <span style={{ color: "blue", textDecoration: "underline" }}>
-                        Email Me: pahujashreya5@gmail.com
+                        pahujashreya5@gmail.com
                     </span>
                 </p>
                 <p>

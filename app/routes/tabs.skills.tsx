@@ -6,11 +6,11 @@ const skills = [
 
 const SkillsPage: React.FC = () => {
   return (
-    <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
-      <h1>Skills</h1>
-      <div>
+    <div className="text-center p-4">
+      <h1 className="text-4xl text-pink-500 font-serif font-semibold">Skills</h1>
+      <div className="mt-4 text-lg">
         {skills.map((skill, index) => (
-          <div key={index} style={{ marginBottom: "10px" }}>
+          <div key={index} className="mb-6">
             <strong>{skill.name}</strong>: {skill.experience}
           </div>
         ))}

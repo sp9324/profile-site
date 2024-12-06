@@ -11,7 +11,7 @@ export default function Home() {
         <img src="favicon.ico" className="mx-auto mt-4 w-32 h-32"></img>
         <p>
           <h2 className="m-10">About Me</h2>
-          <p>I am a third year undergraduate student pursuing Computer Science at Punjab Engingeering College. I am passionate about Web Devlopment. My ineterests are books and music!</p>
+          <p className="text-lg ml-14 mr-14">I am a third year undergraduate student pursuing Computer Science at Punjab Engingeering College. I am passionate about Web Devlopment. My ineterests are books and music!</p>
         </p>
       </body>
     </html>
